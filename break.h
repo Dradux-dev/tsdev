@@ -7,12 +7,18 @@
 
 namespace tsdev
 {
+#ifdef DEBUG
     inline void DebugBreak()
     {
         #ifdef WIN32
             ::DebugBreak();
         #endif
     }
+#else
+# ifndef BREAK_ERROR
+    inline void DebugBreak() {}
+# endif // BREAK_ERROR
+#endif // DEBUG
 }
 
-#endif
+#endif // TSDEV_BREAK_H

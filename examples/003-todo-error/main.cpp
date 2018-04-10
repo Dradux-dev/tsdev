@@ -5,7 +5,7 @@
 #endif
 
 #ifndef TODO_USE_ERROR
-# define TODO_USE_ERROR 1
+# define TODO_USE_ERROR_xxx 1
 #endif
 
 #include <tsdev/todo.h>
