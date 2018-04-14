@@ -5,4 +5,5 @@ SUBDIRS += \
 
 HEADERS += todo.h \
         break.h \
-        check.h
+        check.h \
+		log.h
