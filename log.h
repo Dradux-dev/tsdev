@@ -18,6 +18,8 @@ namespace tsdev
   }
 
   typedef ELogLevel LogLevel::Values;
+  
+  void someCrap();
 }
 
 #endif // TSDEV_LOG_H
